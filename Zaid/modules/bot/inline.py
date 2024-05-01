@@ -69,7 +69,7 @@ async def alive_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("──「 ⚡ 𝙍𝘼 - 𝙊𝙉𝙀 ⚡ 」──", callback_data="helper")]]
+                [[InlineKeyboardButton("──「 ⚡ TriGO - TEAM⚡ 」──", callback_data="helper")]]
             ),
         )
     )
@@ -82,7 +82,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/08f65cd69394dd73a770d.jpg",
+            thumb_url="https://telegra.ph/file/5ec1052961f2a3634f48d.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
