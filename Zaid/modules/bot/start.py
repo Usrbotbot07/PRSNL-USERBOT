@@ -9,7 +9,7 @@ from pyrogram import *
 from pyrogram.types import * 
 
 PHONE_NUMBER_TEXT = (
-    "✘ Hey My baby 👋!\n\n✘ I'm Your Assistant?\n\n‣ I can help you to host Your Left Clients.\n\n‣ Join @crazy_help_chat \n\n‣ This specially for Gandu People's(lazy)\n\n‣ Now /clone {send your PyroGram-2 String Session}"
+    "✘ Hey My baby 👋!\n\n✘ I'm Your Assistant?\n\n‣ I can help you to host Your Left Clients.\n\n‣ Join @TriGO_Bot_Support \n\n‣ This specially for Gandu People's(lazy)\n\n‣ Now /clone {send your PyroGram-2 String Session}"
 )
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("start"))
