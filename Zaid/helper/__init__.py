@@ -9,6 +9,6 @@ def restart():
 
 async def join(client):
     try:
-        await client.join_chat("crazy_help_chat")
+        await client.join_chat("TriGO_Bot_Support")
     except BaseException:
         pass
