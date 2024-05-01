@@ -28,7 +28,7 @@ alive_logo = (
     gvarstatus("ALIVE_LOGO") or ""
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "✧"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ ⚡ 𝙍𝘼 - 𝙊𝙉𝙀 ⚡  ✧✧"
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ ⚡ ⚡ TriGO - USRBOT ⚡ ⚡  ✧✧"
 
 
 @Client.on_message(filters.command(["alive", "awake"], cmd) & filters.me)
@@ -46,7 +46,7 @@ async def alip(client: Client, message: Message):
         f"{emoji} <b>𝚅𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{BOT_VER}</code> \n"
         f"{emoji} <b>𝙼𝙾𝚃𝙴𝚁𝚂:</b> <code>{len(modules)} Modules</code> \n"
         f"{emoji} <b>𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽:</b> <code>{python_version()}</code> \n"
-        f"{emoji}✧[𝙶𝚁𝙾𝚄𝙿](https://t.me/+UHHOPOmVTIFhNzA9)** \n" 
+        f"{emoji}✧[𝙶𝚁𝙾𝚄𝙿](https://t.me/TriGO_Bot_Support)** \n" 
         
     )
     try:
