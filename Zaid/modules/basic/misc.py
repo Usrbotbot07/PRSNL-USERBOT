@@ -11,7 +11,7 @@ from Zaid.helper.PyroHelpers import ReplyCheck
 from Zaid.modules.help import add_command_help
 from Zaid.modules.bot.inline import get_readable_time
 
-alive_logo = ALIVE_PIC or "https://telegra.ph/file/08f65cd69394dd73a770d.jpg"
+alive_logo = ALIVE_PIC or "https://telegra.ph/file/5ec1052961f2a3634f48d.jpg"
 
 if ALIVE_TEXT:
    txt = ALIVE_TEXT
@@ -22,13 +22,13 @@ else:
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [Click](t.me/+UHHOPOmVTIFhNzA9)\n"
-        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [Click](t.me/crazy_help_chat)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [Click](t.me/Mr_Anurag_Jii)"        
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [Click](https://t.me/TriGO_Bot_Support)\n"
+        f"├• **𝐔ᴘᴅᴀᴛᴇs**: [Click](https://t.me/TriGO_Bot_SUPPORTS)\n"
+        f"└• **𝐌ᴀsᴛᴇʀ**: [Click](https://t.me/TriGO_Bot_Support)"        
     )
 
 @Client.on_message(
-    filters.command(["alive", "RA-ONE"], ".") & (filters.me | filters.user(SUDO_USER))
+    filters.command(["alive", "TriGO"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
     xx = await message.reply_text("⚡️")
@@ -61,7 +61,7 @@ async def repo(bot: Client, message: Message):
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/itzshukla")
+    await message.edit("https://t.me/TriGO_Bot_SUPPORTS")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
