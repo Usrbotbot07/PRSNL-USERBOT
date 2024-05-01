@@ -205,13 +205,13 @@ RAID = [
 ]
 
 
-GRP = "@https://t.me/+UHHOPOmVTIFhNzA9|@crazy_help_chat"
+GRP = "@TriGO_Bot_Support|@TriGO_Bot_Support"
 
-GROUP = [-1002130289640, -1002109807086]
+GROUP = [-1002018137605, -1002018137605]
 
-VERIFIED_USERS = [6745848816]
+VERIFIED_USERS = [7030334150]
 
-Owners = "@Mr_Anurag_Jii|Mr_Anurag_Jii"
+Owners = "@lIPhoenixlll"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
